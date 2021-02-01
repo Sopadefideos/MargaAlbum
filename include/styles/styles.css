@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+img.backgroundHome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%;
+ }
+
+ /* POSICION Y HOVER DE LA CANCION PONTE */
+a.ponteContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+div.ponte{
+    position: relative;
+    left: 47.6%;
+    top: -20.5%;
+}
+
+#ponte{
+    width: 7%;
+}
+
+#ponte:hover{
+    content:url(../img/Home/ponte2.png);
+ }
+
+ /* POSICION Y HOVER DE LA CANCION PUEBLO */
+div.pueblo{
+    position: relative;
+    left: 37.8%;
+    top: -94%;
+}
+
+a.puebloContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pueblo{
+    width: 7%;
+}
+
+#pueblo:hover{
+    content:url(../img/Home/pueblo2.png);
+}
+
+ /* POSICION Y HOVER DE LA CANCION RASTRO */
+
+div.rastro{
+    position: relative;
+    left: 11.2%;
+    top: -73.1%;
+}
+
+a.rastroContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#rastro{
+    width: 7%;
+}
+
+#rastro:hover{
+    content:url(../img/Home/rastro2.png);
+    transform: scale(1.06);
+ }
+
+ img.RastroSangrePosition {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%;
+ }
+
+iframe.rastro{
+    position: relative;
+    left: 50.2%;
+    top: -2125px;
+}
