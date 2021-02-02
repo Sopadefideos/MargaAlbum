@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+div.backgroundHome {
+    justify-content: center;
+    content: url(../img/Home/Homepage.png);
+    width: 87%;
+    margin: auto;
+}
+
+div.backgroundMap {
+    justify-content: center;
+    content: url(../img/Mapa/ELlugar.png);
+    width: 87%;
+    margin: auto;
+}
+
+div.backgroundRastro {
+    justify-content: center;
+    content: url(../img/RastroSangre/rastrosangrefull.png);
+    width: 87%;
+    margin: auto;
+}
+
+div.backgroundPueblo {
+    justify-content: center;
+    content: url(../img/PuebloNomada/Pueblonomada.png);
+    width: 87%;
+    margin: auto;
+}
+
+div.backgroundPonte {
+    justify-content: center;
+    content: url(../img/PonteVestuario/Pontevestuario.png);
+    width: 87%;
+    margin: auto;
+}
+
+
+.ponte{
+    position: absolute;
+    left: 47.6%;
+    top: 79.2%;
+    content: url(../img/Home/ponte1.png);
+    width: 7%;
+}
+
+.ponte:hover{
+    content: url(../img/Home/ponte2.png);
+}
+
+.pueblo{
+    position: absolute;
+    left: 37.85%;
+    top: 7.2%;
+    content: url(../img/Home/pueblo1.png);
+    width: 7%;
+}
+
+.pueblo:hover{
+    content: url(../img/Home/pueblo2.png);
+}
+
+.rastro{
+    position: absolute;
+    left: 11.44%;
+    top: 27.75%;
+    content: url(../img/Home/rastro1.png);
+    width: 7%;
+}
+
+.rastro:hover{
+    content: url(../img/Home/rastro2.png);
+    transform: scale(1.062);
+}
+
+iframe.rastroFrame{
+    position: absolute;
+    left: 50.19%;
+    top: 9.75%;
+}
+
+iframe.puebloFrame{
+    position: absolute;
+    left: 47.37%;
+    top: 7.35%;
+}
+
+iframe.ponteFrame{
+    position: absolute;
+    left: 14.37%;
+    top: 31.6%;
+}
+
+.solPonte{
+    position: absolute;
+    left: 11.3%;
+    top: 4.75%;
+    content: url(../img/PonteVestuario/Sol.png);
+    width: 8%;
+}
+
+.solPueblo{
+    position: absolute;
+    left: 11.3%;
+    top: 4.75%;
+    content: url(../img/PuebloNomada/Sol.png);
+    width: 8%;
+}
+
+.solRastro{
+    position: absolute;
+    left: 11.3%;
+    top: 4.75%;
+    content: url(../img/RastroSangre/Sol.png);
+    width: 8%;
+}
+
+.solIndex{
+    position: absolute;
+    left: 11.3%;
+    top: 4.75%;
+    content: url(../img/Home/Sol.png);
+    width: 8%;
+}
+
+.solMap{
+    position: absolute;
+    left: 11.3%;
+    top: 4.75%;
+    content: url(../img/Mapa/Sol.png);
+    width: 8%;
+}
+
