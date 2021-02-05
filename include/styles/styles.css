@@ -1,0 +1,376 @@
+/* ELIMINACION DE STANDARS DE TODO EL HTML */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+/*
+
+
+
+
+
+
+        MAPA Y BOTONES
+
+
+
+
+
+
+
+
+
+*/
+
+/* FONDO DEL MAP */ 
+div.backgroundMap {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Fondo_Mapa.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+/* BOTON SOL MENU */
+.solMap{
+    position: absolute;
+    left: 2.5%;
+    top: 5.5%;
+    content: url(../img/03_Assets/03_Mapa/MenuMapa.svg);
+    width: 10%;
+}
+
+
+/*
+
+
+
+
+
+
+        TEXTOS Y FORMATOS
+
+
+
+
+
+
+
+
+
+*/
+
+.textFormat{
+    color: white; 
+    font-family: 'Helvetica';
+    line-height : 20px;
+    font-size: 15px;
+}
+
+.lyricsFormat{
+    color: white; 
+    font-family: 'Helvetica';
+    line-height : 18px;
+    font-size: 15px;
+}
+
+.linkFormat{
+    text-decoration: underline;
+}
+
+
+/*
+
+
+
+
+
+
+        HOMEEE!!
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+/* FONDO DEL HOME */ 
+div.backgroundHome {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Home.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+/* BOTON CANCION1 HOME */ 
+.rastro{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion01_ElRastroDeTuSangreEnLaNieve.svg);
+    width: 7%;
+}
+
+.rastro:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
+}
+
+/* BOTON CANCION2 HOME */ 
+.pueblo{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion02_PuebloNomada.svg);
+    width: 7%;
+}
+
+.pueblo:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
+}
+
+/* BOTON CANCION3 HOME */ 
+.bellas{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion03_BellasArtes.svg);
+    width: 7%;
+}
+
+.bellas:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
+}
+
+/* BOTON CANCION4 HOME */ 
+.rooney{
+    position: absolute;
+    left: 57%;
+    top: 15%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion04_RooneyMara.svg);
+    width: 7%;
+}
+
+                        /* TRANSFORM:SCALE PORQUE LA FOTO TIENE DIMENSION DIFERENTE 
+                            PARA EL HOVER */
+.rooney:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
+    transform: scale(0.9);
+}
+
+/* BOTON CANCION5 HOME */ 
+.paisaje{
+    position: absolute;
+    left: 30%;
+    top: 88%;
+    content: url(../img/03_Assets/01_Home/HomeCancion05_PaisajesPequenitos.svg);
+    width: 7%;
+}
+
+.paisaje:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
+}
+
+/* BOTON CANCION6 HOME */ 
+.federico{
+    position: absolute;
+    left: 73%;
+    top: 40%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion06_Federico.svg);
+    width: 7%;
+}
+
+.federico:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion06/Hover_Cancion06_Federico.svg);
+}
+
+/* BOTON CANCION7 HOME */ 
+.ponte{
+    position: absolute;
+    left: 40%;
+    top: 114%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion07_PonteUnVestuario.svg);
+    width: 7%;
+}
+
+.ponte:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg);
+}
+
+/* BOTON CANCION8 HOME */ 
+.feria{
+    position: absolute;
+    left: 89%;
+    top: 55%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion08_FeriaGitana.svg);
+    width: 7%;
+}
+
+.feria:hover{
+    content: url(../img/03_Assets/02_Canciones/Cancion08/Hover_Cancion08_FeriaGitana.svg);
+}
+
+/* BOTON SOL HOME */ 
+.solHome{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/01_Home/Home_Menu.svg);
+    width: 10%;
+}
+
+/*
+
+
+
+
+
+
+        CANCIONES DETALLES Y VIDEOS
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+/* FONDO DE LA CANCION1 */ 
+div.backgroundSong1 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion01_ElRastroDeTuSangreEnLaNieve.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.rastroColor{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
+    width: 7%;
+}
+ 
+.solRastro{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion01/Click_Menu_Cancion01_ElRastroDeTuSangreEnLaNieve.svg);
+    width: 10%;
+}
+
+div.rastroPos{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    padding-right: 15%;
+}
+
+
+/* FONDO DE LA CANCION2 */ 
+div.backgroundSong2 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion02_PuebloNomada.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.puebloColor{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
+    width: 7%;
+}
+ 
+.solPueblo{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion02/ClickMenu_Cancion02_PuebloNomada.svg);
+    width: 10%;
+}
+
+/* FONDO DE LA CANCION3 */ 
+div.backgroundSong3 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion03_BellasArtes.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.bellasColor{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
+    width: 7%;
+}
+ 
+.solBellas{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/ClickMenu_Cancion03_BellasArtes.svg);
+    width: 10%;
+}
+
+
+/*
+
+
+
+
+
+
+        LIRICA DE LAS CANCIONES
+
+
+
+
+
+
+
+
+
+*/
+
+.rostroLyricPos1{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics1{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsRostro{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion01/Lyrics_Imagen_Cancion01.svg);
+}
+
+

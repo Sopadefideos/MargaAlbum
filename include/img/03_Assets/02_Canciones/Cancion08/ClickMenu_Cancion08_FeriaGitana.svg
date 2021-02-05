@@ -1,0 +1,11 @@
+<svg width="138" height="140" viewBox="0 0 138 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M69 100C85.5685 100 99 86.5685 99 70C99 53.4315 85.5685 40 69 40C52.4315 40 39 53.4315 39 70C39 86.5685 52.4315 100 69 100ZM69 90C80.0457 90 89 81.0457 89 70C89 58.9543 80.0457 50 69 50C57.9543 50 49 58.9543 49 70C49 81.0457 57.9543 90 69 90Z" fill="#9A71BA" fill-opacity="0.5"/>
+<rect x="65" width="8" height="32" fill="#9A71BA" fill-opacity="0.5"/>
+<rect x="65" y="108" width="8" height="32" fill="#9A71BA" fill-opacity="0.5"/>
+<rect x="115.627" y="17" width="8" height="32" transform="rotate(45 115.627 17)" fill="#9A71BA" fill-opacity="0.5"/>
+<rect width="8" height="32" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 115.627 121.285)" fill="#9A71BA" fill-opacity="0.5"/>
+<rect width="8" height="32" transform="matrix(-0.707107 0.707107 0.707107 0.707107 23.6567 17)" fill="#9A71BA" fill-opacity="0.5"/>
+<rect x="23.6567" y="121.285" width="8" height="32" transform="rotate(-135 23.6567 121.285)" fill="#9A71BA" fill-opacity="0.5"/>
+<rect x="138" y="66" width="8" height="32" transform="rotate(90 138 66)" fill="#9A71BA" fill-opacity="0.5"/>
+<rect x="32" y="66" width="8" height="32" transform="rotate(90 32 66)" fill="#9A71BA" fill-opacity="0.5"/>
+</svg>
