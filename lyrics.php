@@ -27,7 +27,7 @@
         if ($_GET['value'] == "rastroFrame"){
     ?>
     <!-- SE CIERRA PARA INCLUIR HTML -->
-    <div class="backgroundSong1">      
+    <div class="backgroundLyric1">      
     </div>
     
     <div class="rostroLyricPos1">
@@ -43,7 +43,7 @@
         }elseif ($_GET['value'] == "puebloFrame"){
     ?>
     <!-- SE CIERRA PARA CONTINUAR CON EL SIGUIENTE HTML -->
-    <div class="backgroundSong2">      
+    <div class="backgroundLyric2">      
     </div>
 
     <div class="puebloLyricPos2">
@@ -56,7 +56,7 @@
     <?php
         }elseif ($_GET['value'] == "bellasFrame"){
     ?>
-    <div class="backgroundSong3">      
+    <div class="backgroundLyric3">      
     </div>
     <div class="bellasLyricPos2">
         <?php include ( 'include/img/03_Assets/02_Canciones/Cancion03/lyric3.html '); ?>

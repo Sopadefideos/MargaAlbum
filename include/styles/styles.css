@@ -379,6 +379,13 @@ div.bellasPos{
 
 /* LYRICS 1 */
 
+div.backgroundLyric1 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics01_Cancion01_ElRastroDeTuSangreEnLaNieve.jpg);
+    width: 100%;
+    margin: auto;
+}
+
 .rostroLyricPos1{
     position: absolute;
     left: 5%;
@@ -404,6 +411,14 @@ div.bellasPos{
 }
 
 /* LYRICS 2 */
+
+div.backgroundLyric2 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics02_Cancion02_PuebloNomada.jpg);
+    width: 100%;
+    margin: auto;
+}
+
 .puebloLyricPos2{
     position: absolute;
     left: 5%;
@@ -429,6 +444,14 @@ div.bellasPos{
 }
 
 /* LYRICS 3 */
+
+div.backgroundLyric3 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics03_Cancion03_BellasArtes.jpg);
+    width: 100%;
+    margin: auto;
+}
+
 .bellasLyricPos2{
     position: absolute;
     left: 5%;
