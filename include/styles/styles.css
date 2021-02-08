@@ -122,6 +122,8 @@ div.backgroundHome {
 
 .rastro:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION2 HOME */ 
@@ -135,6 +137,8 @@ div.backgroundHome {
 
 .pueblo:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
+    margin-top: 4px;
+    transform: scale(1.25);
 }
 
 /* BOTON CANCION3 HOME */ 
@@ -148,6 +152,8 @@ div.backgroundHome {
 
 .bellas:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
+    margin-top: 4px;
+    transform: scale(1.25);
 }
 
 /* BOTON CANCION4 HOME */ 
@@ -163,7 +169,7 @@ div.backgroundHome {
                             PARA EL HOVER */
 .rooney:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
-    transform: scale(0.9);
+    
 }
 
 /* BOTON CANCION5 HOME */ 
@@ -177,6 +183,8 @@ div.backgroundHome {
 
 .paisaje:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION6 HOME */ 
@@ -190,6 +198,8 @@ div.backgroundHome {
 
 .federico:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion06/Hover_Cancion06_Federico.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION7 HOME */ 
@@ -203,6 +213,8 @@ div.backgroundHome {
 
 .ponte:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION8 HOME */ 
@@ -216,6 +228,8 @@ div.backgroundHome {
 
 .feria:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion08/Hover_Cancion08_FeriaGitana.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON SOL HOME */ 
