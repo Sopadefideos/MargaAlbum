@@ -350,6 +350,13 @@ div.backgroundSong3 {
     width: 10%;
 }
 
+div.bellasPos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
+}
+
 
 /*
 
@@ -421,6 +428,31 @@ div.backgroundSong3 {
     content: url(../img/03_Assets/02_Canciones/Cancion02/Lyrics_Imagen_Cancion02.svg);
 }
 
+/* LYRICS 3 */
+.bellasLyricPos2{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics3{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+    margin-bottom: 50%;
+}
+
+.imgLyricsBellas{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion03.svg);
+}
 
 
 

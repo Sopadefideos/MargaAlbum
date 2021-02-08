@@ -58,8 +58,11 @@
     ?>
     <div class="backgroundSong3">      
     </div>
+    <div class="bellasLyricPos2">
+        <?php include ( 'include/img/03_Assets/02_Canciones/Cancion03/lyric3.html '); ?>
+    </div>
     <a href="index.php" class="solBellas"></a>
-    <a href="song.php?value=bellasFrame" class="bellasColor"></a>
+    <a href="song.php?value=bellasFrame" class="imgLyricsBellas"></a>
     <?php
         }
     ?>

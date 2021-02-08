@@ -49,6 +49,7 @@
     ?>
     <div class="backgroundSong3">      
     </div>
+    <?php include ( 'include/img/03_Assets/02_Canciones/Cancion03/song3.html '); ?>
     <a href="index.php" class="solBellas"></a>
     <a href="lyrics.php?value=bellasFrame" class="bellasColor"></a>
     <?php
