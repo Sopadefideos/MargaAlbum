@@ -52,7 +52,7 @@
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
     <a href="index.php" class="solPueblo"></a>
-    <a href="song.php?value=puebloFrame" class="puebloColor"></a>
+    <a href="song.php?value=puebloFrame" class="imgLyricsPueblo"></a>
     <?php
         }elseif ($_GET['value'] == "bellasFrame"){
     ?>
