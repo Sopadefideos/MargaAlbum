@@ -122,6 +122,8 @@ div.backgroundHome {
 
 .rastro:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION2 HOME */ 
@@ -135,6 +137,8 @@ div.backgroundHome {
 
 .pueblo:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
+    margin-top: 4px;
+    transform: scale(1.25);
 }
 
 /* BOTON CANCION3 HOME */ 
@@ -148,6 +152,8 @@ div.backgroundHome {
 
 .bellas:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
+    margin-top: 4px;
+    transform: scale(1.25);
 }
 
 /* BOTON CANCION4 HOME */ 
@@ -163,7 +169,7 @@ div.backgroundHome {
                             PARA EL HOVER */
 .rooney:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
-    transform: scale(0.9);
+    
 }
 
 /* BOTON CANCION5 HOME */ 
@@ -177,6 +183,8 @@ div.backgroundHome {
 
 .paisaje:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION6 HOME */ 
@@ -190,6 +198,8 @@ div.backgroundHome {
 
 .federico:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion06/Hover_Cancion06_Federico.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION7 HOME */ 
@@ -203,6 +213,8 @@ div.backgroundHome {
 
 .ponte:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON CANCION8 HOME */ 
@@ -216,6 +228,8 @@ div.backgroundHome {
 
 .feria:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion08/Hover_Cancion08_FeriaGitana.svg);
+    margin-top: 4px;
+    transform: scale(1.18);
 }
 
 /* BOTON SOL HOME */ 
@@ -262,7 +276,7 @@ div.backgroundSong1 {
     left: 5%;
     top: 40%;
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
-    width: 7%;
+    width: 9%;
 }
  
 .solRastro{
@@ -294,7 +308,7 @@ div.backgroundSong2 {
     left: 40%;
     top: 10%;
     content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
-    width: 7%;
+    width: 9%;
 }
  
 .solPueblo{
@@ -303,6 +317,13 @@ div.backgroundSong2 {
     top: 5%;
     content: url(../img/03_Assets/02_Canciones/Cancion02/ClickMenu_Cancion02_PuebloNomada.svg);
     width: 10%;
+}
+
+div.puebloPos{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    padding-right: 15%;
 }
 
 /* FONDO DE LA CANCION3 */ 
@@ -318,7 +339,7 @@ div.backgroundSong3 {
     left: 18%;
     top: 64%;
     content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
-    width: 7%;
+    width: 9%;
 }
  
 .solBellas{
@@ -327,6 +348,13 @@ div.backgroundSong3 {
     top: 5%;
     content: url(../img/03_Assets/02_Canciones/Cancion03/ClickMenu_Cancion03_BellasArtes.svg);
     width: 10%;
+}
+
+div.bellasPos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
 }
 
 
@@ -348,6 +376,15 @@ div.backgroundSong3 {
 
 
 */
+
+/* LYRICS 1 */
+
+div.backgroundLyric1 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics01_Cancion01_ElRastroDeTuSangreEnLaNieve.jpg);
+    width: 100%;
+    margin: auto;
+}
 
 .rostroLyricPos1{
     position: absolute;
@@ -372,5 +409,73 @@ div.backgroundSong3 {
     width: 50%;
     content: url(../img/03_Assets/02_Canciones/Cancion01/Lyrics_Imagen_Cancion01.svg);
 }
+
+/* LYRICS 2 */
+
+div.backgroundLyric2 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics02_Cancion02_PuebloNomada.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.puebloLyricPos2{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics2{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsPueblo{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion02/Lyrics_Imagen_Cancion02.svg);
+}
+
+/* LYRICS 3 */
+
+div.backgroundLyric3 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics03_Cancion03_BellasArtes.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.bellasLyricPos2{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics3{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+    margin-bottom: 50%;
+}
+
+.imgLyricsBellas{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion03.svg);
+}
+
 
 

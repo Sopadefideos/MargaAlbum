@@ -27,7 +27,7 @@
         if ($_GET['value'] == "rastroFrame"){
     ?>
     <!-- SE CIERRA PARA INCLUIR HTML -->
-    <div class="backgroundSong1">      
+    <div class="backgroundLyric1">      
     </div>
     
     <div class="rostroLyricPos1">
@@ -43,7 +43,7 @@
         }elseif ($_GET['value'] == "puebloFrame"){
     ?>
     <!-- SE CIERRA PARA CONTINUAR CON EL SIGUIENTE HTML -->
-    <div class="backgroundSong2">      
+    <div class="backgroundLyric2">      
     </div>
 
     <div class="puebloLyricPos2">
@@ -52,14 +52,17 @@
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
     <a href="index.php" class="solPueblo"></a>
-    <a href="song.php?value=puebloFrame" class="puebloColor"></a>
+    <a href="song.php?value=puebloFrame" class="imgLyricsPueblo"></a>
     <?php
         }elseif ($_GET['value'] == "bellasFrame"){
     ?>
-    <div class="backgroundSong3">      
+    <div class="backgroundLyric3">      
+    </div>
+    <div class="bellasLyricPos2">
+        <?php include ( 'include/img/03_Assets/02_Canciones/Cancion03/lyric3.html '); ?>
     </div>
     <a href="index.php" class="solBellas"></a>
-    <a href="song.php?value=bellasFrame" class="bellasColor"></a>
+    <a href="song.php?value=bellasFrame" class="imgLyricsBellas"></a>
     <?php
         }
     ?>
