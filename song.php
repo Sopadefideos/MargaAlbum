@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="include\styles\styles.css" type="text/css">
-    <title>Lomás bien
+    <title>Lo Más bien
     </title>
 </head>
 
@@ -30,7 +30,7 @@
     <div class="backgroundSong1">      
     </div>
     <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-    <?php include ( 'include/img/03_Assets/02_Canciones/Cancion01/song1.html '); ?>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion01/song1.html'; ?>
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     <a href="index.php" class="solRastro"></a>
     <a href="lyrics.php?value=rastroFrame" class="rastroColor"></a>
@@ -41,7 +41,7 @@
     <!-- SE CIERRA PARA CONTINUAR CON EL SIGUIENTE HTML -->
     <div class="backgroundSong2">      
     </div>
-    <?php include ( 'include/img/03_Assets/02_Canciones/Cancion02/song2.html '); ?>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion02/song2.html'; ?>
     <a href="index.php" class="solPueblo"></a>
     <a href="lyrics.php?value=puebloFrame" class="puebloColor"></a>
     <?php
@@ -49,7 +49,7 @@
     ?>
     <div class="backgroundSong3">      
     </div>
-    <?php include ( 'include/img/03_Assets/02_Canciones/Cancion03/song3.html '); ?>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion03/song3.html'; ?>
     <a href="index.php" class="solBellas"></a>
     <a href="lyrics.php?value=bellasFrame" class="bellasColor"></a>
     <?php

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="include\styles\styles.css" type="text/css">
-    <title>Lomás bien
+    <title>Lo Más bien
     </title>
 </head>
 
@@ -32,7 +32,7 @@
     
     <div class="rostroLyricPos1">
     <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-        <?php include ( 'include/img/03_Assets/02_Canciones/Cancion01/lyric1.html '); ?>
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion01/lyric1.html'; ?>
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
     
@@ -48,7 +48,7 @@
 
     <div class="puebloLyricPos2">
     <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-        <?php include ( 'include/img/03_Assets/02_Canciones/Cancion02/lyric2.html '); ?>
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion02/lyric2.html'; ?>
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
     <a href="index.php" class="solPueblo"></a>
@@ -59,7 +59,7 @@
     <div class="backgroundLyric3">      
     </div>
     <div class="bellasLyricPos2">
-        <?php include ( 'include/img/03_Assets/02_Canciones/Cancion03/lyric3.html '); ?>
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion03/lyric3.html'; ?>
     </div>
     <a href="index.php" class="solBellas"></a>
     <a href="song.php?value=bellasFrame" class="imgLyricsBellas"></a>
