@@ -438,6 +438,165 @@ div.bellasPos{
 }
 
 
+/* FONDO DE LA CANCION4 */ 
+div.backgroundSong4 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion04_RooneyMara.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.rooneyColor{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion04_Rooney.svg);
+    width: 9%;
+}
+ 
+.solRooney{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/CClickMenu_Cancion04_Rooney.svg);
+    width: 10%;
+}
+
+div.rooneyPos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
+}
+
+
+/* FONDO DE LA CANCION5 */ 
+div.backgroundSong5 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion05_PaiajesPequeñitos.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.paisajesColor{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion05_PaisajesPequenitos.svg);
+    width: 9%;
+}
+ 
+.solPaisajes{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/ClickMenu_Cancion05_PaisajesPequiñitos.svg);
+    width: 10%;
+}
+
+div.paisajesPos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
+}
+
+
+/* FONDO DE LA CANCION6 */ 
+div.backgroundSong6 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion06_Federico.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.federicoColor{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion06_Federico.svg);
+    width: 9%;
+}
+ 
+.solFederico{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/ClickMenu_Cancion06_Federico.svg);
+    width: 10%;
+}
+
+div.federicoPos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
+}
+
+
+/* FONDO DE LA CANCION7 */ 
+div.backgroundSong7 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion07_PonteUnVestuario.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.ponteColor{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion07_PonteUnVestuario.svg);
+    width: 9%;
+}
+ 
+.solPonte{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/ClickMenu_Cancion07_PonteUnVestuario.svg);
+    width: 10%;
+}
+
+div.pontePos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
+}
+
+
+/* FONDO DE LA CANCION8 */ 
+div.backgroundSong8 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/Fondo_Cancion08_FeriaGitana.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.feriaColor{
+    position: absolute;
+    left: 18%;
+    top: 64%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion08_FeriaGitana.svg);
+    width: 9%;
+}
+ 
+.solFeria{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/ClickMenu_Cancion08_FeriaGitana.svg);
+    width: 10%;
+}
+
+div.feriaPos{
+    position: absolute;
+    left: 57%;
+    top: 10%;
+    padding-right: 10%;
+}
+
 /*
 
 
