@@ -29,7 +29,7 @@
 /* FONDO DEL MAP */ 
 div.backgroundMap {
     justify-content: center;
-    content: url(../img/03_Assets/03_Mapa/Fondo_Mapa.jpg);
+    content: url(../img/03_Assets/03_Mapa/Mapa/FondoMapa.jpg);
     width: 100%;
     margin: auto;
 }
@@ -39,8 +39,88 @@ div.backgroundMap {
     position: absolute;
     left: 2.5%;
     top: 5.5%;
-    content: url(../img/03_Assets/03_Mapa/MenuMapa.svg);
+    content: url(../img/03_Assets/03_Mapa/Mapa/MenuMapa.svg);
     width: 10%;
+}
+
+.elRio{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    left: 22.5%;
+    top: 41%;
+}
+
+.elBosqueSur{
+    width: 10%;
+    height: 7%;
+    position: absolute;
+    left: 1.5%;
+    top: 130%;
+}
+
+.casaMiguel{
+    width: 12%;
+    height: 12%;
+    position: absolute;
+    left: 30.5%;
+    top: 74%;
+}
+
+.laFuente{
+    width: 12%;
+    height: 20%;
+    position: absolute;
+    left: 48.5%;
+    top: 95%;
+}
+
+.lasMontanias{
+    width: 21%;
+    height: 25%;
+    position: absolute;
+    left: 54.5%;
+    top: 20%;
+}
+
+.elBosqueNorte{
+    width: 11%;
+    height: 10%;
+    position: absolute;
+    left: 78.5%;
+    top: 37%;
+}
+
+.laIglesia{
+    width: 10%;
+    height: 17%;
+    position: absolute;
+    left: 87.5%;
+    top: 55%;
+}
+
+.facultadArtes{
+    width: 10%;
+    height: 24%;
+    position: absolute;
+    left: 62.5%;
+    top: 55%;
+}
+
+.casaNico{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    left: 73.5%;
+    top: 93%;
+}
+
+.carreteraOscura{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    left: 67.5%;
+    top: 123%;
 }
 
 
@@ -476,5 +556,85 @@ div.backgroundLyric3 {
     content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion03.svg);
 }
 
+/*
 
 
+
+
+
+
+        LUGARES!!
+
+
+
+
+
+
+
+
+
+*/
+
+.solMap2{
+    position: absolute;
+    left: 2.5%;
+    top: 5.5%;
+    content: url(../img/03_Assets/03_Mapa/Mapa/MenuElementoMapa.svg);
+    width: 10%;
+}
+
+div.backgroundMap1 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/BosquesRios/Fondo_BosquesYRio.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap2 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/CasaMiguel/Fondo_CasaMiguel.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap3 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/CasaNico/Fondo_CasaNico.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap4 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/FacultadBellasArtes/Fondo_LaFacultadBellasArtes.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap5 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/LaCarretera/Fondo_LaCarreteraOscura.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap6 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/LaFuente/Fondo_LaFuente.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap7 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/LaIglesia/Fondo_LaIglesia.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+div.backgroundMap8 {
+    justify-content: center;
+    content: url(../img/03_Assets/03_Mapa/Elementos/LasMontañas/Fondo_LasMontañasNevadas.jpg);
+    width: 100%;
+    margin: auto;
+}
