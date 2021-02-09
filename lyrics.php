@@ -53,6 +53,7 @@
     </div>
     <a href="index.php" class="solPueblo"></a>
     <a href="song.php?value=puebloFrame" class="imgLyricsPueblo"></a>
+    
     <?php
         }elseif ($_GET['value'] == "bellasFrame"){
     ?>
@@ -63,6 +64,87 @@
     </div>
     <a href="index.php" class="solBellas"></a>
     <a href="song.php?value=bellasFrame" class="imgLyricsBellas"></a>
+
+
+    <?php
+        else if ($_GET['value'] == "rooneyFrame"){
+    ?>
+    <!-- SE CIERRA PARA INCLUIR HTML -->
+    <div class="backgroundLyric4">      
+    </div>
+    
+    <div class="rooneyLyricPos1">
+    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion04/lyric4.html'; ?>
+    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+    
+    <a href="index.php" class="solRooney"></a>
+    <a href="song.php?value=rooneyFrame" class="imgLyricsRooney"></a>
+
+    <?php
+        else if ($_GET['value'] == "rooneyFrame"){
+    ?>
+    <!-- SE CIERRA PARA INCLUIR HTML -->
+    <div class="backgroundLyric5">      
+    </div>
+    
+    <div class="paisajesLyricPos1">
+    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion05/lyric5.html'; ?>
+    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+    
+    <a href="index.php" class="solPaisajes"></a>
+    <a href="song.php?value=rpaisajesFrame" class="imgLyricsPaisajes"></a>
+
+    <?php
+        else if ($_GET['value'] == "federicoFrame"){
+    ?>
+    <!-- SE CIERRA PARA INCLUIR HTML -->
+    <div class="backgroundLyric6">      
+    </div>
+    
+    <div class="federicoLyricPos6">
+    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion06/lyric6.html'; ?>
+    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+    
+    <a href="index.php" class="solFederico"></a>
+    <a href="song.php?value=federicoFrame" class="imgLyricsFederico"></a>
+
+    <?php
+        else if ($_GET['value'] == "ponteFrame"){
+    ?>
+    <!-- SE CIERRA PARA INCLUIR HTML -->
+    <div class="backgroundLyric7">      
+    </div>
+    
+    <div class="ponteLyricPos1">
+    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion07/lyric7.html'; ?>
+    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+    
+    <a href="index.php" class="solPonte"></a>
+    <a href="song.php?value=ponteFrame" class="imgLyricsPonte"></a>
+
+    <?php
+        else if ($_GET['value'] == "feriaFrame"){
+    ?>
+    <!-- SE CIERRA PARA INCLUIR HTML -->
+    <div class="backgroundLyric8">      
+    </div>
+    
+    <div class="feriaLyricPos1">
+    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <?php include 'include/img/03_Assets/02_Canciones/Cancion08/lyric8.html'; ?>
+    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+    
+    <a href="index.php" class="solFeria"></a>
+    <a href="song.php?value=feriaFrame" class="imgLyricsFeria"></a>
     <?php
         }
     ?>

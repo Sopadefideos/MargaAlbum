@@ -52,6 +52,55 @@
     <?php include 'include/img/03_Assets/02_Canciones/Cancion03/song3.html'; ?>
     <a href="index.php" class="solBellas"></a>
     <a href="lyrics.php?value=bellasFrame" class="bellasColor"></a>
+
+    <?php
+        }elseif ($_GET['value'] == "rooneyFrame"){
+    ?>
+    <div class="backgroundSong4">      
+    </div>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion04/song4.html'; ?>
+    <a href="index.php" class="solRooney"></a>
+    <a href="lyrics.php?value=rooneyFrame" class="rooneyColor"></a>
+
+
+    <?php
+        }elseif ($_GET['value'] == "paisajesFrame"){
+    ?>
+    <div class="backgroundSong5">      
+    </div>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion05/song5.html'; ?>
+    <a href="index.php" class="solPaisajes"></a>
+    <a href="lyrics.php?value=paisajesFrame" class="paisajesColor"></a>
+
+
+    <?php
+        }elseif ($_GET['value'] == "federicoFrame"){
+    ?>
+    <div class="backgroundSong6">      
+    </div>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion05/song5.html'; ?>
+    <a href="index.php" class="solFederico"></a>
+    <a href="lyrics.php?value=federicoFrame" class="federicoColor"></a>
+
+
+    <?php
+        }elseif ($_GET['value'] == "ponteFrame"){
+    ?>
+    <div class="backgroundSong7">      
+    </div>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion07/song7.html'; ?>
+    <a href="index.php" class="solPonte"></a>
+    <a href="lyrics.php?value=ponteFrame" class="ponteColor"></a>
+
+
+    <?php
+        }elseif ($_GET['value'] == "feriaFrame"){
+    ?>
+    <div class="backgroundSong8">      
+    </div>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion08/song8.html'; ?>
+    <a href="index.php" class="solFeria"></a>
+    <a href="lyrics.php?value=feriaFrame" class="feriaColor"></a>
     <?php
         }
     ?>
