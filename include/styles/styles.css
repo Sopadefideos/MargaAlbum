@@ -715,6 +715,175 @@ div.backgroundLyric3 {
     content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion03.svg);
 }
 
+/* LYRICS 4 */
+
+div.backgroundLyric4 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics04_Cancion04_RooneyMara.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.rooneyLyricPos4{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics4{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsRooney{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion04.svg);
+}
+
+
+/* LYRICS 5 */
+
+div.backgroundLyric5 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics05_Cancion05_PaiajesPequeñitos.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.bellasLyricPos5{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics5{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsBellas{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion05.svg);
+}
+
+
+/* LYRICS 6 */
+
+div.backgroundLyric6 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics06_Cancion06_Federico.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.bellasLyricPos6{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics6{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsBellas{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion06.svg);
+}
+
+
+/* LYRICS 7 */
+
+div.backgroundLyric7 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics07_Cancion07_PonteUnVestuario.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.bellasLyricPos7{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics7{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsBellas{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion07.svg);
+}
+
+
+/* LYRICS 8 */
+
+div.backgroundLyric8 {
+    justify-content: center;
+    content: url(../img/03_Assets/00_Fondos/FondosLyrics/Fondo_Lyrics08_Cancion08_FeriaGitana.jpg);
+    width: 100%;
+    margin: auto;
+}
+
+.bellasLyricPos8{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.containerLyrics8{
+    border: 4px solid;
+    border-radius: 20px;
+    width: 120%;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: #bdccd4;
+}
+
+.imgLyricsBellas{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 50%;
+    content: url(../img/03_Assets/02_Canciones/Cancion03/Lyrics_Imagen_Cancion08.svg);
+}
+
 /*
 
 
