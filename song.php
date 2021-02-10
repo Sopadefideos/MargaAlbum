@@ -65,13 +65,13 @@
 
 
     <?php
-        }elseif ($_GET['value'] == "paisajesFrame"){
+        }elseif ($_GET['value'] == "paisajeFrame"){
     ?>
     <div class="backgroundSong5">      
     </div>
     <?php include 'include/img/03_Assets/02_Canciones/Cancion05/song5.html'; ?>
     <a href="index.php" class="solPaisajes"></a>
-    <a href="lyrics.php?value=paisajesFrame" class="paisajesColor"></a>
+    <a href="lyrics.php?value=paisajesFrame" class="paisajesColorAux"></a>
 
 
     <?php
@@ -79,7 +79,7 @@
     ?>
     <div class="backgroundSong6">      
     </div>
-    <?php include 'include/img/03_Assets/02_Canciones/Cancion05/song5.html'; ?>
+    <?php include 'include/img/03_Assets/02_Canciones/Cancion06/song6.html'; ?>
     <a href="index.php" class="solFederico"></a>
     <a href="lyrics.php?value=federicoFrame" class="federicoColor"></a>
 
