@@ -251,7 +251,7 @@ div.backgroundHome {
 }
 
 /* BOTON CANCION5 HOME */ 
-.paisaje{
+.paisajes{
     position: absolute;
     left: 30%;
     top: 88%;
@@ -259,7 +259,7 @@ div.backgroundHome {
     width: 7%;
 }
 
-.paisaje:hover{
+.paisajes:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
     margin-top: 4px;
     transform: scale(1.18);
@@ -722,7 +722,7 @@ div.backgroundLyric4 {
     margin: auto;
 }
 
-.rooneyLyricPos4{
+.rooneyLyricPos1{
     position: absolute;
     left: 5%;
     top: 40%;
@@ -755,6 +755,7 @@ div.backgroundLyric5 {
     width: 100%;
     margin: auto;
 }
+
 
 .paisajesLyricPos5{
     position: absolute;
@@ -798,6 +799,7 @@ div.backgroundLyric6 {
     margin: auto;
 }
 
+
 .federicoLyricPos6{
     position: absolute;
     left: 5%;
@@ -831,6 +833,7 @@ div.backgroundLyric7 {
     width: 100%;
     margin: auto;
 }
+
 
 .ponteLyricPos7{
     position: absolute;

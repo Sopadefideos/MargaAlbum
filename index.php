@@ -25,7 +25,7 @@
      <!-- BOTON 4 -->
     <a href="song.php?value=rooneyFrame" class="rooney"></a>
      <!-- BOTON 5 -->
-    <a href="song.php?value=paisajeFrame" class="paisaje"></a>
+    <a href="song.php?value=paisajesFrame" class="paisajes"></a>
      <!-- BOTON 6 -->
     <a href="song.php?value=federicoFrame" class="federico"></a>
      <!-- BOTON 7 -->
