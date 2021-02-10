@@ -44,6 +44,7 @@
     <?php include 'include/img/03_Assets/02_Canciones/Cancion02/song2.html'; ?>
     <a href="index.php" class="solPueblo"></a>
     <a href="lyrics.php?value=puebloFrame" class="puebloColor"></a>
+    
     <?php
         }elseif ($_GET['value'] == "bellasFrame"){
     ?>
