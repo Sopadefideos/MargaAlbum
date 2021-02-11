@@ -21,7 +21,13 @@
 -->
 
 <body style="background-color: #bdccd4;">
-    <!-- BUCLE IF CREADO Y ANIDADO EN HTML CON PHP PARA ELEGIR LA CANCION QUE QUEREMOS MOSTRAR -->
+
+<div id="aviso">
+        <h2>Pon el movil en modo horizontal</h2>
+    </div>
+
+    <div id="contenido">
+        <!-- BUCLE IF CREADO Y ANIDADO EN HTML CON PHP PARA ELEGIR LA CANCION QUE QUEREMOS MOSTRAR -->
     <!-- EMPIEZA AQUI -->
     <?php
         if ($_GET['value'] == "rastroFrame"){
@@ -105,5 +111,9 @@
     <?php
         }
     ?>
+    </div>
+
+
+    
 </body>
 </html>

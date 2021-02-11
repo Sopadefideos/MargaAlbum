@@ -10,6 +10,13 @@
 </head>
 
 <body>
+    
+
+    <div id="aviso">
+        <h2>Pon el movil en modo horizontal</h2>
+    </div>
+
+    <div id="contenido">
     <div class="backgroundMap">      
     </div>
     <a href="index.php" class="solMap"></a>
@@ -23,6 +30,7 @@
     <a href="place.php?value=facultadartes" class="facultadArtes"></a>
     <a href="place.php?value=casanico" class="casaNico"></a>
     <a href="place.php?value=carreteraoscura" class="carreteraOscura"></a>
+    </div>
     
 </body>
 
