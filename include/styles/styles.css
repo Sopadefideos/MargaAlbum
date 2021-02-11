@@ -975,3 +975,58 @@ div.backgroundMap8 {
     width: 100%;
     margin: auto;
 }
+
+
+/*
+
+
+
+
+
+
+        MEDIAS QUERIES!!
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    
+
+    #aviso{
+       display: none;
+    }
+
+    .rastro{
+        position: absolute;
+        left: 5%;
+        top: 35%;
+        content: url(../img/03_Assets/01_Home/Home_Cancion01_ElRastroDeTuSangreEnLaNieve.svg);
+        width: 7%;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    #contenido{
+        display: none;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 768px)  {
+   
+
+    #aviso{
+       display: none;
+    }
+}
