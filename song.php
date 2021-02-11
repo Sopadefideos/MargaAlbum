@@ -71,7 +71,7 @@
 
 
     <?php
-        }elseif ($_GET['value'] == "paisajeFrame"){
+        }elseif ($_GET['value'] == "paisajesFrame"){
     ?>
     <div class="backgroundSong5">      
     </div>
