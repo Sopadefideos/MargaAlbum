@@ -30,19 +30,58 @@
         <!-- BUCLE IF CREADO Y ANIDADO EN HTML CON PHP PARA ELEGIR LA CANCION QUE QUEREMOS MOSTRAR -->
     <!-- EMPIEZA AQUI -->
     <?php
-        if ($_GET['value'] == "elrio"){
+        if ($_GET['value'] == "elrio" OR $_GET['value'] == "elbosquesur" OR $_GET['value'] == "elbosquenorte"){
     ?>
 
     <div class="backgroundMap1">      
     </div>
     <a href="map.php" class="solMap2"></a>
-    <?php
-        }elseif ($_GET['value'] == "elbosquesur"){
-    ?>
-    
-    <div class="backgroundMap1">      
+
+    <div class="positionBosquesYRio1">
+    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <p style="
+        background-color: #bdccd4;
+        color: #9A71BA;
+        float: right;
+        font-size: 1.3020833333333333vw;
+        margin-bottom: 0.06510416666666667vw;
+        font-weight: bold;
+        font-family: 'Helvetica';
+        margin-top: -2%;
+        width: 30%;
+        padding-left: 2%;
+        ">El fenómeno</p>
+        <?php include 'include\img\03_Assets\03_Mapa\Textos\bosquesyrio1.html'; ?>
+    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
-    <a href="map.php" class="solMap2"></a>
+
+    <div class="positionBosquesYRio2">
+        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
+            background-color: #bdccd4;
+            color: #9A71BA;
+            float: left;
+            font-size: 1.3020833333333333vw;
+            margin-bottom: 1px;
+            margin-left: 50px;
+            font-weight: bold;
+            font-family: 'Helvetica';
+            margin-top: -2%;
+            width: 22%;
+            padding-left: 1.5%;
+            ">El druida</p>
+            <?php include 'include\img\03_Assets\03_Mapa\Textos\bosquesyrio2.html'; ?>
+        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+
+    <div class="positionBosquesYRio3">
+        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <?php include 'include\img\03_Assets\03_Mapa\Textos\bosquesyrio3.html'; ?>
+        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+    </div>
+
+
+
     <?php
         }elseif ($_GET['value'] == "casamiguel"){
     ?>
@@ -62,13 +101,7 @@
     <div class="backgroundMap8">      
     </div>
     <a href="map.php" class="solMap2"></a>
-    <?php
-        }elseif ($_GET['value'] == "elbosquenorte"){
-    ?>
-    
-    <div class="backgroundMap1">      
-    </div>
-    <a href="map.php" class="solMap2"></a>
+   
     <?php
         }elseif ($_GET['value'] == "laiglesia"){
     ?>
