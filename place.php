@@ -101,7 +101,54 @@
     <div class="backgroundMap8">      
     </div>
     <a href="map.php" class="solMap2"></a>
-   
+    
+    <div class="positionMontanias1">
+        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <?php include 'include\img\03_Assets\03_Mapa\Textos\montana1.html'; ?>
+        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+        </div>
+
+    
+        <div class="positionMontanias2">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
+            background-color: #bdccd4;
+            color: #F75972;
+            float: right;
+            font-size: 1.3020833333333333vw;
+            margin-bottom: 0.06510416666666667vw;
+            font-weight: bold;
+            font-family: 'Helvetica';
+            margin-top: -1%;
+            width: 22%;
+            padding-left: 2%;
+            margin-right: 55%;
+            ">La mansión en la montaña</p>
+                <?php include 'include\img\03_Assets\03_Mapa\Textos\montana2.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+            </div>
+
+        <div class="positionMontanias3">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <a href="song.php?value=rastroFrame" class="rastroColorPlace"></a>
+            <p style="
+            background-color: #bdccd4;
+            color: #F75972;
+            float: left;
+            font-size: 1.3020833333333333vw;
+            margin-bottom: 0.06510416666666667vw;
+            font-weight: bold;
+            font-family: 'Helvetica';
+            margin-top: -2%;
+            width: 23%;
+            padding-left: 2%;
+            margin-left: 13%;
+            ">Piscineros</p>
+                <?php include 'include\img\03_Assets\03_Mapa\Textos\montana3.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+            </div>
+        
+
     <?php
         }elseif ($_GET['value'] == "laiglesia"){
     ?>
