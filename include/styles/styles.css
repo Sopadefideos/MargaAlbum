@@ -144,15 +144,15 @@ div.backgroundMap {
 .textFormat{
     color: white; 
     font-family: 'Helvetica';
-    line-height : 20px;
-    font-size: 15px;
+    line-height : 1.1067708333333333vw;
+    font-size: 0.9778357235984355vw;
 }
 
 .lyricsFormat{
     color: white; 
     font-family: 'Helvetica';
-    line-height : 18px;
-    font-size: 15px;
+    line-height : 1.1067708333333333vw;
+    font-size: 0.9778357235984355vw;
 }
 
 .linkFormat{
@@ -912,6 +912,32 @@ div.backgroundMap1 {
     margin: auto;
 }
 
+.containerBosquesYRio{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 110%;
+    padding: 5%;
+    background-color: #bdccd4;
+}
+
+.positionBosquesYRio1{
+    position: absolute;
+    left: 32%;
+    top: 45%;
+}
+
+.positionBosquesYRio2{
+    position: absolute;
+    left: 32%;
+    top: 95%;
+}
+
+.positionBosquesYRio3{
+    position: absolute;
+    left: 69%;
+    top: 60%;
+}
+
 div.backgroundMap2 {
     justify-content: center;
     content: url(../img/03_Assets/03_Mapa/Elementos/CasaMiguel/Fondo_CasaMiguel.jpg);
@@ -959,6 +985,50 @@ div.backgroundMap8 {
     content: url(../img/03_Assets/03_Mapa/Elementos/LasMontañas/Fondo_LasMontañasNevadas.jpg);
     width: 100%;
     margin: auto;
+}
+
+.containerMontanias1{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 48%;
+    padding: 1%;
+    background-color: #bdccd4;
+}
+
+.containerMontanias2{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 105%;
+    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #bdccd4;
+}
+
+.positionMontanias1{
+    position: absolute;
+    left: 9%;
+    top: 50%;
+}
+
+.positionMontanias2{
+    position: absolute;
+    left: 9%;
+    top: 90%;
+}
+
+.positionMontanias3{
+    position: absolute;
+    left: 60%;
+    top: 65%;
+}
+
+.rastroColorPlace{
+    position: absolute;
+    left: 50%;
+    top: -40%;
+    content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
+    width: 30%;
 }
 
 
