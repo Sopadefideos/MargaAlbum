@@ -1,4 +1,4 @@
-/* ELIMINACION DE STANDARS DE TODO EL HTML */ 
+/* ELIMINACION DE STANDARS DE TODO EL HTML */
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@
 
 */
 
-/* FONDO DEL MAP */ 
+/* FONDO DEL MAP */
 div.backgroundMap {
     justify-content: center;
     content: url(../img/03_Assets/03_Mapa/Mapa/FondoMapa.jpg);
@@ -135,7 +135,7 @@ div.backgroundMap {
 */
 
 .textFormat{
-    color: white; 
+    color: white;
     font-weight: 100;
     font-family: 'Helvetica';
     line-height : 1.1067708333333333vw;
@@ -143,7 +143,7 @@ div.backgroundMap {
 }
 
 .lyricsFormat{
-    color: white; 
+    color: white;
     font-family: 'Helvetica';
     font-weight: 100;
     line-height : 1.1067708333333333vw;
@@ -176,7 +176,7 @@ div.backgroundMap {
 
 
 
-/* FONDO DEL HOME */ 
+/* FONDO DEL HOME */
 div.backgroundHome {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Home.jpg);
@@ -184,7 +184,7 @@ div.backgroundHome {
     margin: auto;
 }
 
-/* BOTON CANCION1 HOME */ 
+/* BOTON CANCION1 HOME */
 .rastro{
     position: absolute;
     left: 3%;
@@ -197,7 +197,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
 }
 
-/* BOTON CANCION2 HOME */ 
+/* BOTON CANCION2 HOME */
 .pueblo{
     position: absolute;
     left: 38%;
@@ -210,7 +210,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
 }
 
-/* BOTON CANCION3 HOME */ 
+/* BOTON CANCION3 HOME */
 .bellas{
     position: absolute;
     left: 25%;
@@ -223,7 +223,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
 }
 
-/* BOTON CANCION4 HOME */ 
+/* BOTON CANCION4 HOME */
 .rooney{
     position: absolute;
     left: 57%;
@@ -232,13 +232,13 @@ div.backgroundHome {
     width: 7%;
 }
 
-                        /* TRANSFORM:SCALE PORQUE LA FOTO TIENE DIMENSION DIFERENTE 
+                        /* TRANSFORM:SCALE PORQUE LA FOTO TIENE DIMENSION DIFERENTE
                             PARA EL HOVER */
 .rooney:hover{
     content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
 }
 
-/* BOTON CANCION5 HOME */ 
+/* BOTON CANCION5 HOME */
 .paisajes{
     position: absolute;
     left: 13%;
@@ -251,7 +251,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
 }
 
-/* BOTON CANCION6 HOME */ 
+/* BOTON CANCION6 HOME */
 .federico{
     position: absolute;
     left: 75%;
@@ -264,7 +264,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion06/Hover_Cancion06_Federico.svg);
 }
 
-/* BOTON CANCION7 HOME */ 
+/* BOTON CANCION7 HOME */
 .ponte{
     position: absolute;
     left: 40%;
@@ -277,7 +277,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg);
 }
 
-/* BOTON CANCION8 HOME */ 
+/* BOTON CANCION8 HOME */
 .feria{
     position: absolute;
     left: 89%;
@@ -290,7 +290,7 @@ div.backgroundHome {
     content: url(../img/03_Assets/02_Canciones/Cancion08/Hover_Cancion08_FeriaGitana.svg);
 }
 
-/* BOTON SOL HOME */ 
+/* BOTON SOL HOME */
 .solHome{
     position: absolute;
     left: 5%;
@@ -320,7 +320,7 @@ div.backgroundHome {
 
 
 
-/* FONDO DE LA CANCION1 */ 
+/* FONDO DE LA CANCION1 */
 div.backgroundSong1 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion01_ElRastroDeTuSangreEnLaNieve.jpg);
@@ -335,7 +335,7 @@ div.backgroundSong1 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
 }
- 
+
 .solRastro{
     position: absolute;
     left: 5%;
@@ -352,7 +352,7 @@ div.rastroPos{
 }
 
 
-/* FONDO DE LA CANCION2 */ 
+/* FONDO DE LA CANCION2 */
 div.backgroundSong2 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion02_PuebloNomada.jpg);
@@ -367,7 +367,7 @@ div.backgroundSong2 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
 }
- 
+
 .solPueblo{
     position: absolute;
     left: 5%;
@@ -383,7 +383,7 @@ div.puebloPos{
     padding-right: 15%;
 }
 
-/* FONDO DE LA CANCION3 */ 
+/* FONDO DE LA CANCION3 */
 div.backgroundSong3 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion03_BellasArtes.jpg);
@@ -398,7 +398,7 @@ div.backgroundSong3 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
 }
- 
+
 .solBellas{
     position: absolute;
     left: 5%;
@@ -415,7 +415,7 @@ div.bellasPos{
 }
 
 
-/* FONDO DE LA CANCION4 */ 
+/* FONDO DE LA CANCION4 */
 div.backgroundSong4 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion04_RooneyMara.jpg);
@@ -430,7 +430,7 @@ div.backgroundSong4 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
 }
- 
+
 .solRooney{
     position: absolute;
     left: 5%;
@@ -447,7 +447,7 @@ div.rooneyPos{
 }
 
 
-/* FONDO DE LA CANCION5 */ 
+/* FONDO DE LA CANCION5 */
 div.backgroundSong5 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion05_PaiajesPequeñitos.jpg);
@@ -462,7 +462,7 @@ div.backgroundSong5 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
 }
- 
+
 .solPaisajes{
     position: absolute;
     left: 5%;
@@ -479,7 +479,7 @@ div.paisajesPos{
 }
 
 
-/* FONDO DE LA CANCION6 */ 
+/* FONDO DE LA CANCION6 */
 div.backgroundSong6 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion06_Federico.jpg);
@@ -495,7 +495,7 @@ div.backgroundSong6 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion06/Hover_Cancion06_Federico.svg);
 }
- 
+
 .solFederico{
     position: absolute;
     left: 5%;
@@ -512,7 +512,7 @@ div.federicoPos{
 }
 
 
-/* FONDO DE LA CANCION7 */ 
+/* FONDO DE LA CANCION7 */
 div.backgroundSong7 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion07_PonteUnVestuario.jpg);
@@ -527,7 +527,7 @@ div.backgroundSong7 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg);
 }
- 
+
 .solPonte{
     position: absolute;
     left: 5%;
@@ -544,7 +544,7 @@ div.pontePos{
 }
 
 
-/* FONDO DE LA CANCION8 */ 
+/* FONDO DE LA CANCION8 */
 div.backgroundSong8 {
     justify-content: center;
     content: url(../img/03_Assets/00_Fondos/Fondo_Cancion08_FeriaGitana.jpg);
@@ -559,7 +559,7 @@ div.backgroundSong8 {
     width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion08/Hover_Cancion08_FeriaGitana.svg);
 }
- 
+
 .solFeria{
     position: absolute;
     left: 5%;
@@ -610,7 +610,7 @@ div.backgroundLyric1 {
 }
 
 .containerLyrics1{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -643,7 +643,7 @@ div.backgroundLyric2 {
 }
 
 .containerLyrics2{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -676,7 +676,7 @@ div.backgroundLyric3 {
 }
 
 .containerLyrics3{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -709,7 +709,7 @@ div.backgroundLyric4 {
 }
 
 .containerLyrics4{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -744,7 +744,7 @@ div.backgroundLyric5 {
 }
 
 .containerLyrics5{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -787,7 +787,7 @@ div.backgroundLyric6 {
 }
 
 .containerLyrics6{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -822,7 +822,7 @@ div.backgroundLyric7 {
 }
 
 .containerLyrics7{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -856,7 +856,7 @@ div.backgroundLyric8 {
 }
 
 .containerLyrics8{
-    border: 4px solid;
+    border: 3px solid;
     border-radius: 20px;
     width: 120%;
     padding: 10%;
@@ -1048,7 +1048,7 @@ div.backgroundMap8 {
 
 
 @media screen and (max-width: 767px) and (orientation: landscape) {
-    
+
 
     #aviso{
        display: none;
@@ -1068,12 +1068,12 @@ div.backgroundMap8 {
         display: none;
     }
 
-    
+
 }
 
 
 @media screen and (min-width: 768px)  {
-   
+
 
     #aviso{
        display: none;
