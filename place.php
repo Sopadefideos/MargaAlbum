@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="include\styles\styles.css" type="text/css">
+    <link rel="stylesheet" href="include/styles/styles.css" type="text/css">
     <title>Lo Más bien
     </title>
 </head>
@@ -51,7 +51,7 @@
         width: 30%;
         padding-left: 2%;
         ">El fenómeno</p>
-        <?php include 'include\img\03_Assets\03_Mapa\Textos\bosquesyrio1.html'; ?>
+        <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio1.html'; ?>
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
 
@@ -70,13 +70,13 @@
             width: 22%;
             padding-left: 1.5%;
             ">El druida</p>
-            <?php include 'include\img\03_Assets\03_Mapa\Textos\bosquesyrio2.html'; ?>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio2.html'; ?>
         <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
 
     <div class="positionBosquesYRio3">
         <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-            <?php include 'include\img\03_Assets\03_Mapa\Textos\bosquesyrio3.html'; ?>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio3.html'; ?>
         <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
 
@@ -104,7 +104,7 @@
     
     <div class="positionMontanias1">
         <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-            <?php include 'include\img\03_Assets\03_Mapa\Textos\montana1.html'; ?>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/montana1.html'; ?>
         <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
         </div>
 
@@ -124,7 +124,7 @@
             padding-left: 2%;
             margin-right: 55%;
             ">La mansión en la montaña</p>
-                <?php include 'include\img\03_Assets\03_Mapa\Textos\montana2.html'; ?>
+                <?php include 'include/img/03_Assets/03_Mapa/Textos/montana2.html'; ?>
             <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
             </div>
 
@@ -144,7 +144,7 @@
             padding-left: 2%;
             margin-left: 13%;
             ">Piscineros</p>
-                <?php include 'include\img\03_Assets\03_Mapa\Textos\montana3.html'; ?>
+                <?php include 'include/img/03_Assets/03_Mapa/Textos/montana3.html'; ?>
             <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
             </div>
         

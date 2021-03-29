@@ -77,7 +77,7 @@
     </div>
     <?php include 'include/img/03_Assets/02_Canciones/Cancion05/song5.html'; ?>
     <a href="index.php" class="solPaisajes"></a>
-    <a href="lyrics.php?value=paisajesFrame" class="paisajesColorAux"></a>
+    <a href="lyrics.php?value=paisajesFrame" class="paisajesColor"></a>
 
 
     <?php

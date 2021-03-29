@@ -15,13 +15,6 @@
         MAPA Y BOTONES
 
 
-
-
-
-
-
-
-
 */
 
 /* FONDO DEL MAP */ 
@@ -35,10 +28,10 @@ div.backgroundMap {
 /* BOTON SOL MENU */
 .solMap{
     position: absolute;
-    left: 2.5%;
-    top: 5.5%;
-    content: url(../img/03_Assets/03_Mapa/Mapa/MenuMapa.svg);
+    left: 5%;
+    top: 5%;
     width: 10%;
+    content: url(../img/03_Assets/03_Mapa/Mapa/MenuMapa.svg);
 }
 
 .elRio{
@@ -143,6 +136,7 @@ div.backgroundMap {
 
 .textFormat{
     color: white; 
+    font-weight: 100;
     font-family: 'Helvetica';
     line-height : 1.1067708333333333vw;
     font-size: 0.9778357235984355vw;
@@ -151,6 +145,7 @@ div.backgroundMap {
 .lyricsFormat{
     color: white; 
     font-family: 'Helvetica';
+    font-weight: 100;
     line-height : 1.1067708333333333vw;
     font-size: 0.9778357235984355vw;
 }
@@ -320,7 +315,6 @@ div.backgroundHome {
 
 
 
-
 */
 
 
@@ -336,10 +330,10 @@ div.backgroundSong1 {
 
 .rastroColor{
     position: absolute;
-    left: 5%;
-    top: 40%;
+    left: 3%;
+    top: 35%;
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
-    width: 8%;
 }
  
 .solRastro{
@@ -368,10 +362,10 @@ div.backgroundSong2 {
 
 .puebloColor{
     position: absolute;
-    left: 40%;
+    left: 38%;
     top: 10%;
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion02/Hover_Cancion02_PuebloNomada.svg);
-    width: 8%;
 }
  
 .solPueblo{
@@ -399,10 +393,10 @@ div.backgroundSong3 {
 
 .bellasColor{
     position: absolute;
-    left: 18%;
-    top: 64%;
+    left: 25%;
+    top: 57%;
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
-    width: 9%;
 }
  
 .solBellas{
@@ -432,9 +426,9 @@ div.backgroundSong4 {
 .rooneyColor{
     position: absolute;
     left: 57%;
-    top: 15%;
-    content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
+    top: 23%;
     width: 7%;
+    content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
 }
  
 .solRooney{
@@ -463,10 +457,10 @@ div.backgroundSong5 {
 
 .paisajesColor{
     position: absolute;
-    left: 30%;
-    top: 88%;
+    left: 13%;
+    top: 84%;
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion05/Hover_Cancion05_PaisajesPequenitos.svg);
-    width: 8%;
 }
  
 .solPaisajes{
@@ -495,10 +489,11 @@ div.backgroundSong6 {
 
 .federicoColor{
     position: absolute;
-    left: 73%;
-    top: 40%;
+    left: 75%;
+    top: 50%;
+    content: url(../img/03_Assets/01_Home/Home_Cancion06_Federico.svg);
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion06/Hover_Cancion06_Federico.svg);
-    width: 8%;
 }
  
 .solFederico{
@@ -528,9 +523,9 @@ div.backgroundSong7 {
 .ponteColor{
     position: absolute;
     left: 40%;
-    top: 114%;
+    top: 105%;
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg);
-    width: 8%;
 }
  
 .solPonte{
@@ -560,9 +555,9 @@ div.backgroundSong8 {
 .feriaColor{
     position: absolute;
     left: 89%;
-    top: 55%;
+    top: 80%;
+    width: 7%;
     content: url(../img/03_Assets/02_Canciones/Cancion08/Hover_Cancion08_FeriaGitana.svg);
-    width: 8%;
 }
  
 .solFeria{
@@ -898,11 +893,10 @@ div.backgroundLyric8 {
 */
 
 .solMap2{
-    position: absolute;
-    left: 2.5%;
-    top: 5.5%;
-    content: url(../img/03_Assets/03_Mapa/Mapa/MenuElementoMapa.svg);
+    left: 5%;
+    top: 5%;
     width: 10%;
+    content: url(../img/03_Assets/03_Mapa/Mapa/MenuElementoMapa.svg);
 }
 
 div.backgroundMap1 {
@@ -1026,9 +1020,9 @@ div.backgroundMap8 {
 .rastroColorPlace{
     position: absolute;
     left: 50%;
-    top: -40%;
+    top: -32%;
     content: url(../img/03_Assets/02_Canciones/Cancion01/Hover_Cancion01_ElRastroDeLaSangreEnTUNieve.svg);
-    width: 30%;
+    width: 22%;
 }
 
 
