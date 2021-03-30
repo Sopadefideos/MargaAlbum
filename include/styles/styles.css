@@ -906,31 +906,6 @@ div.backgroundMap1 {
     margin: auto;
 }
 
-.containerBosquesYRio{
-    border: 2px solid;
-    border-radius: 20px;
-    width: 110%;
-    padding: 5%;
-    background-color: #bdccd4;
-}
-
-.positionBosquesYRio1{
-    position: absolute;
-    left: 32%;
-    top: 45%;
-}
-
-.positionBosquesYRio2{
-    position: absolute;
-    left: 32%;
-    top: 95%;
-}
-
-.positionBosquesYRio3{
-    position: absolute;
-    left: 69%;
-    top: 60%;
-}
 
 div.backgroundMap2 {
     justify-content: center;
@@ -981,6 +956,9 @@ div.backgroundMap8 {
     margin: auto;
 }
 
+
+/* MONTAÑAS */
+
 .containerMontanias1{
     border: 2px solid;
     border-radius: 20px;
@@ -1025,6 +1003,125 @@ div.backgroundMap8 {
     width: 22%;
 }
 
+/* BOSQUES Y RIO */
+
+.containerBosquesYRio{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 110%;
+    padding: 5%;
+    background-color: #bdccd4;
+}
+
+.positionBosquesYRio1{
+    position: absolute;
+    left: 32%;
+    top: 45%;
+}
+
+.positionBosquesYRio2{
+    position: absolute;
+    left: 32%;
+    top: 95%;
+}
+
+.positionBosquesYRio3{
+    position: absolute;
+    left: 69%;
+    top: 60%;
+}
+
+/* IGLESIA */
+
+.containerIglesia1{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 110%;
+    padding: 5%;
+    background-color: #bdccd4;
+}
+
+.positionIglesia1{
+    position: absolute;
+    left: 32%;
+    top: 45%;
+}
+
+.positionIglesia2{
+    position: absolute;
+    left: 32%;
+    top: 95%;
+}
+
+.positionIglesia3{
+    position: absolute;
+    left: 69%;
+    top: 60%;
+}
+
+.rooneyColorPlace{
+    position: absolute;
+    left: 50%;
+    top: -32%;
+    content: url(../img/03_Assets/02_Canciones/Cancion04/Hover_Cancion04_Rooney.svg);
+    width: 22%;
+  }
+
+
+/* FACULTAD DE BELLAS ARTES */
+
+    .containerFacultad1{
+        border: 2px solid;
+        border-radius: 20px;
+        width: 110%;
+        padding: 5%;
+        background-color: #bdccd4;
+    }
+
+    .positionFacultad1{
+        position: absolute;
+        left: 32%;
+        top: 45%;
+    }
+
+    .bellasColorPlace{
+        position: absolute;
+        left: 50%;
+        top: -32%;
+        content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
+        width: 22%;
+      }
+}
+
+/* CASA DE MIGUEL */
+
+        .containerCasaMiguel{
+            border: 2px solid;
+            border-radius: 20px;
+            width: 110%;
+            padding: 5%;
+            background-color: #bdccd4;
+        }
+
+        .positionCasaMiguel1{
+            position: absolute;
+            left: 32%;
+            top: 45%;
+        }
+
+        .positionCasaMiguel2{
+            position: absolute;
+            left: 32%;
+            top: 95%;
+        }
+
+        .ponteColorPlace{
+            position: absolute;
+            left: 50%;
+            top: -32%;
+            content: url(../img/03_Assets/02_Canciones/Cancion07/Hover_Cancion07_PonteUnVestuario.svg.svg);
+            width: 22%;
+          }
 
 /*
 

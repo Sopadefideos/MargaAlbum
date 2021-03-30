@@ -29,6 +29,9 @@
     <div id="contenido">
         <!-- BUCLE IF CREADO Y ANIDADO EN HTML CON PHP PARA ELEGIR LA CANCION QUE QUEREMOS MOSTRAR -->
     <!-- EMPIEZA AQUI -->
+
+<!-- BOSQUES y RIO -->
+
     <?php
         if ($_GET['value'] == "elrio" OR $_GET['value'] == "elbosquesur" OR $_GET['value'] == "elbosquenorte"){
     ?>
@@ -80,21 +83,8 @@
         <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
 
+<!-- LAS MONTAÑAS -->
 
-
-    <?php
-        }elseif ($_GET['value'] == "casamiguel"){
-    ?>
-    <div class="backgroundMap2">      
-    </div>
-    <a href="map.php" class="solMap"></a>
-    <?php
-        }elseif ($_GET['value'] == "lafuente"){
-    ?>
-    
-    <div class="backgroundMap6">      
-    </div>
-    <a href="map.php" class="solMap"></a>
     <?php
         }elseif ($_GET['value'] == "lasmontanias"){
     ?>
@@ -147,9 +137,8 @@
                 <?php include 'include/img/03_Assets/03_Mapa/Textos/montana3.html'; ?>
             <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
             </div>
-        
 
-    <!-- IGLESIA -->
+<!-- IGLESIA -->
 
 
     <?php
@@ -200,7 +189,6 @@
             <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
             </div>
 
-
 <!-- FACULTAD DE BELLAS ARTES -->
 
 
@@ -217,6 +205,122 @@
             <?php include 'include/img/03_Assets/03_Mapa/Textos/facultad1.html'; ?>
         <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
     </div>
+        
+
+<!-- CASA MIGUEL -->
+
+<!-- CASA MIGUEL -->
+
+    <?php
+        }elseif ($_GET['value'] == "casamiguel"){
+    ?>
+          <div class="backgroundMap2">
+          </div>
+          <a href="map.php" class="solMap"></a>
+
+          <div class="positionCasaMiguel1">
+              <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+              <p style="
+              background-color: #bdccd4;
+              color: #3D8AF4;
+              float: right;
+              font-size: 1.3020833333333333vw;
+              margin-bottom: 0.06510416666666667vw;
+              font-weight: bold;
+              font-family: 'Helvetica';
+              margin-top: -1%;
+              width: 22%;
+              padding-left: 2%;
+              margin-right: 55%;
+              ">Las conductoras siamesas</p>
+                  <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel1.html'; ?>
+              <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+              </div>
+
+          <div class="positionCasaMiguel2">
+              <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+              <a href="song.php?value=ponteFrame" class="ponteColorPlace"></a>
+              <p style="
+              background-color: #bdccd4;
+              color: #3D8AF4;
+              float: left;
+              font-size: 1.3020833333333333vw;
+              margin-bottom: 0.06510416666666667vw;
+              font-weight: bold;
+              font-family: 'Helvetica';
+              margin-top: -2%;
+              width: 23%;
+              padding-left: 2%;
+              margin-left: 13%;
+              ">Ojitos tristes</p>
+                  <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel2.html'; ?>
+              <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+              </div>
+
+
+
+
+<!-- LA FUENTE -->
+
+<!-- LA FUENTE -->
+
+    <?php
+        }elseif ($_GET['value'] == "lafuente"){
+    ?>
+
+          <div class="backgroundMap6">
+          </div>
+          <a href="map.php" class="solMap"></a>
+
+          <div class="positionFuente1">
+              <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+                  <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente1.html'; ?>
+              <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+              </div>
+
+
+              <div class="positionFuente2">
+                  <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+                  <p style="
+                  background-color: #bdccd4;
+                  color: #83C55B;
+                  float: right;
+                  font-size: 1.3020833333333333vw;
+                  margin-bottom: 0.06510416666666667vw;
+                  font-weight: bold;
+                  font-family: 'Helvetica';
+                  margin-top: -1%;
+                  width: 22%;
+                  padding-left: 2%;
+                  margin-right: 55%;
+                  ">La leyenda de la princesa</p>
+                      <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente2.html'; ?>
+                  <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+                  </div>
+
+              <div class="positionFuente3">
+                  <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+                  <a href="song.php?value=federicoFrame" class="federicoColorPlace"></a>
+                  <p style="
+                  background-color: #bdccd4;
+                  color: #83C55B;
+                  float: left;
+                  font-size: 1.3020833333333333vw;
+                  margin-bottom: 0.06510416666666667vw;
+                  font-weight: bold;
+                  font-family: 'Helvetica';
+                  margin-top: -2%;
+                  width: 23%;
+                  padding-left: 2%;
+                  margin-left: 13%;
+                  ">Objetos mágicos</p>
+                      <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente3.html'; ?>
+                  <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+                  </div>
+
+
+
+
 
 
 <!-- CASA NICO -->
@@ -231,7 +335,7 @@
     <div class="positionI">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <p style="
-            background-color: #FF0000;
+            background-color: #bdccd4;
             color: #913443;
             float: right;
             font-size: 1.3020833333333333vw;
@@ -251,7 +355,7 @@
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <a href="song.php?value=rastroFrame" class="rastroColorPlace"></a>
             <p style="
-            background-color: #FF0000;
+            background-color: #bdccd4;
             color: #FFFD54;
             float: left;
             font-size: 1.3020833333333333vw;
@@ -268,12 +372,20 @@
             </div>
 
     <!-- CARRETERA OSCURA -->
+     <!-- CARRETERA OSCURA -->
     <?php
         }elseif ($_GET['value'] == "carreteraoscura"){
     ?>
-    <div class="backgroundMap5">      
+    <div class="backgroundMap5">
     </div>
     <a href="map.php" class="solMap"></a>
+
+    <div class="positionCarretera11">
+        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/carretera1.html'; ?>
+        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+    </div>
+
     <?php
         }
     ?>
