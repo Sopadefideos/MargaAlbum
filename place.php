@@ -22,9 +22,9 @@
 
 <body style="background-color: #bdccd4;">
 
-<div id="aviso">
-        <h2>Pon el movil en modo horizontal</h2>
-    </div>
+    <div id="aviso">
+        <img style="width: 100%;" src="include/img/03_Assets/lomasbien.gif" alt="">
+</div>
 
     <div id="contenido">
         <!-- BUCLE IF CREADO Y ANIDADO EN HTML CON PHP PARA ELEGIR LA CANCION QUE QUEREMOS MOSTRAR -->
@@ -185,9 +185,9 @@
             font-weight: bold;
             font-family: 'Helvetica';
             margin-top: -2%;
-            width: 23%;
+            width: 33%;
             padding-left: 2%;
-            margin-left: 55%;
+            margin-left: 74%;
             ">Bodas clandestinas</p>
                 <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia3.html'; ?>
             <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
@@ -254,9 +254,9 @@
               font-weight: bold;
               font-family: 'Helvetica';
               margin-top: -2%;
-              width: 23%;
+              width: 19%;
               padding-left: 2%;
-              margin-left: 1%;
+              margin-left: 5%;
               ">Ojitos tristes</p>
                   <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel2.html'; ?>
               <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
@@ -285,6 +285,7 @@
               <div class="positionFuente2">
                   <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
                   <p style="
+                  
                   background-color: #bdccd4;
                   color: #83C55B;
                   float: right;
@@ -293,9 +294,10 @@
                   font-weight: bold;
                   font-family: 'Helvetica';
                   margin-top: -1.5%;
-                  width: 70%;
+                  width: 57%;
                   padding-left: 2%;
-                  margin-right: 15%;
+                  margin-right: -3%;
+                  
                   ">La leyenda de la princesa</p>
                       <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente2.html'; ?>
                   <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
@@ -337,6 +339,7 @@
         <div class="positionCasaNico1">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <p style="
+            
             background-color: #bdccd4;
             color: #FFFD54;
             float: left;
@@ -345,9 +348,10 @@
             font-weight: bold;
             font-family: 'Helvetica';
             margin-top: -2%;
-            width: 23%;
+            width: 15%;
             padding-left: 2%;
             margin-left: 13%;
+            
             ">El salón</p>
                 <?php include 'include/img/03_Assets/03_Mapa/Textos/casanico1.html'; ?>
             <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 

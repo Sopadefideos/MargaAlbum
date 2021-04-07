@@ -12,9 +12,9 @@
 <body>
     
 
-    <div id="aviso">
-        <h2>Pon el movil en modo horizontal</h2>
-    </div>
+<div id="aviso">
+        <img style="width: 100%;" src="include/img/03_Assets/lomasbien.gif" alt="">
+</div>
 
     <div id="contenido">
     <div class="backgroundMap">      
@@ -30,6 +30,7 @@
     <a href="place.php?value=facultadartes" class="facultadArtes"></a>
     <a href="place.php?value=casanico" class="casaNico"></a>
     <a href="place.php?value=carreteraoscura" class="carreteraOscura"></a>
+    <a href="https://www.elvolcanmusica.com/" class="elVolcan"></a>
     </div>
     
 </body>

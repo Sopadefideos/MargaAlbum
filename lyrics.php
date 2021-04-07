@@ -22,7 +22,7 @@
 
 <body style="background-color: #bdccd4;">
 <div id="aviso">
-    <h2>Pon el movil en modo horizontal</h2>
+        <img style="width: 100%;" src="include/img/03_Assets/lomasbien.gif" alt="">
 </div>
 
 <div id="contenido">

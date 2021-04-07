@@ -114,6 +114,14 @@
             top: 123%;
         }
 
+        .elVolcan{
+            width: 15%;
+            height: 19%;
+            position: absolute;
+            left: 84.5%;
+            top: 123%;
+        }
+
 
 /*
 
@@ -1022,7 +1030,7 @@
         .positionBosquesYRio2{
             position: absolute;
             left: 27%;
-            top: 95%;
+            top: 100%;
         }
 
         .positionBosquesYRio3{
@@ -1062,7 +1070,7 @@
         .positionIglesia1{
             position: absolute;
             left: 3%;
-            top: 53%;
+            top: 60%;
         }
 
         .positionIglesia2{
@@ -1074,7 +1082,7 @@
         .positionIglesia3{
             position: absolute;
             left: 45%;
-            top: 80%;
+            top: 97%;
         }
 
         .rooneyColorPlace{
@@ -1106,7 +1114,7 @@
         .bellasColorPlace{
             position: absolute;
             left: 58%;
-            top: 75%;
+            top: 85%;
             content: url(../img/03_Assets/02_Canciones/Cancion03/Hover_Cancion03_BellasArtes.svg);
             width: 8%;
         }
@@ -1139,7 +1147,7 @@
         .positionCasaMiguel2{
             position: absolute;
             left: 43%;
-            top: 72%;
+            top: 80%;
         }
 
         .ponteColorPlace{
@@ -1178,7 +1186,7 @@
       .positionFuente2{
           position: absolute;
           left: 10%;
-          top: 50%;
+          top: 55%;
       }
 
       .positionFuente3{
@@ -1321,3 +1329,31 @@
            display: none;
        }
    }
+
+/*
+
+
+
+
+
+
+        POSICION ENLACES FICHA!!
+
+
+
+
+
+
+
+
+
+        */
+
+
+.nico{
+    width: 5%;
+            height: 5%;
+            position: absolute;
+            left: 22.5%;
+            top: 41%;
+}
