@@ -78,7 +78,7 @@
     <div class="backgroundLyric4">      
     </div>
     
-    <div class="rooneyLyricPos4">
+    <div class="rooneyLyricPos1">
     <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
         <?php include 'include/img/03_Assets/02_Canciones/Cancion04/lyric4.html'; ?>
     <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
