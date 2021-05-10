@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    
 
-    <div id="aviso">
-        <h2>Pon el movil en modo horizontal</h2>
-    </div>
+
+<div id="aviso">
+        <img style="width: 100%;" src="include/img/03_Assets/lomasbien.gif" alt="">
+</div>
 
     <div id="contenido">
-    <div class="backgroundMap">      
+    <div class="backgroundMap">
     </div>
     <a href="index.php" class="solMap"></a>
     <a href="place.php?value=elrio" class="elRio"></a>
@@ -32,7 +32,7 @@
     <a href="place.php?value=carreteraoscura" class="carreteraOscura"></a>
     <a href="https://www.elvolcanmusica.com/producto/lashormigas-lo-mas-bien-vinilo/" class="elVolcan"></a>
     </div>
-    
+
 </body>
 
 </html>
