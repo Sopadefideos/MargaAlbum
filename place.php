@@ -1,12 +1,16 @@
 <!DOCTYPE HTML>
 <html lang="ES">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="include/styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="include\styles\styles.css" type="text/css">
+    <link rel="shortcut icon" href="include/favicon.ico" type="image/x-icon">
     <title>Lo Más bien
     </title>
 </head>
+
 
 <!-- 
     Esta pagina la he hecho con php y con este lenguaje compruebo mediante metodo GET (por url)
@@ -24,25 +28,25 @@
 
     <div id="aviso">
         <img style="width: 100%;" src="include/img/03_Assets/lomasbien.gif" alt="">
-</div>
+    </div>
 
     <div id="contenido">
         <!-- BUCLE IF CREADO Y ANIDADO EN HTML CON PHP PARA ELEGIR LA CANCION QUE QUEREMOS MOSTRAR -->
-    <!-- EMPIEZA AQUI -->
+        <!-- EMPIEZA AQUI -->
 
-<!-- BOSQUES y RIO -->
+        <!-- BOSQUES y RIO -->
 
-    <?php
+        <?php
         if ($_GET['value'] == "elrio" OR $_GET['value'] == "elbosquesur" OR $_GET['value'] == "elbosquenorte"){
     ?>
 
-    <div class="backgroundMap1">      
-    </div>
-    <a href="map.php" class="solMap"></a>
+        <div class="backgroundMap1">
+        </div>
+        <a href="map.php" class="solMap"></a>
 
-    <div class="positionBosquesYRio1">
-    <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-        <p style="
+        <div class="positionBosquesYRio1">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
         background-color: #bdccd4;
         color: #0026F5;
         float: right;
@@ -54,12 +58,12 @@
         width: 30%;
         padding-left: 2%;
         ">El fenómeno</p>
-        <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio1.html'; ?>
-    <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-    </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio1.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-    <div class="positionBosquesYRio2">
-        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <div class="positionBosquesYRio2">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <p style="
             background-color: #bdccd4;
             color: #0026F5;
@@ -74,31 +78,31 @@
             padding-left: 1.5%;
             ">El druida</p>
             <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio2.html'; ?>
-        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-    </div>
-
-    <div class="positionBosquesYRio3">
-        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-            <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio3.html'; ?>
-        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-    </div>
-
-<!-- LAS MONTAÑAS -->
-
-    <?php
-        }elseif ($_GET['value'] == "lasmontanias"){
-    ?>
-    <div class="backgroundMap8">      
-    </div>
-    <a href="map.php" class="solMap"></a>
-    
-    <div class="positionMontanias1">
-        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-            <?php include 'include/img/03_Assets/03_Mapa/Textos/montana1.html'; ?>
-        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
         </div>
 
-    
+        <div class="positionBosquesYRio3">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/bosquesyrio3.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
+
+        <!-- LAS MONTAÑAS -->
+
+        <?php
+        }elseif ($_GET['value'] == "lasmontanias"){
+    ?>
+        <div class="backgroundMap8">
+        </div>
+        <a href="map.php" class="solMap"></a>
+
+        <div class="positionMontanias1">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/montana1.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
+
+
         <div class="positionMontanias2">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <p style="
@@ -114,9 +118,9 @@
             padding-left: 2%;
             margin-right: 55%;
             ">La mansión en la montaña</p>
-                <?php include 'include/img/03_Assets/03_Mapa/Textos/montana2.html'; ?>
-            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-            </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/montana2.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
         <div class="positionMontanias3">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
@@ -134,28 +138,28 @@
             padding-left: 2%;
             margin-left: 13%;
             ">Piscineros</p>
-                <?php include 'include/img/03_Assets/03_Mapa/Textos/montana3.html'; ?>
-            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-            </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/montana3.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-<!-- IGLESIA -->
+        <!-- IGLESIA -->
 
 
-    <?php
+        <?php
         }elseif ($_GET['value'] == "laiglesia"){
     ?>
-    <div class="backgroundMap7">      
-    </div>
-    <a href="map.php" class="solMap"></a>
+        <div class="backgroundMap7">
+        </div>
+        <a href="map.php" class="solMap"></a>
 
-    <div class="positionIglesia1">
-      <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia1.html'; ?>
-      </div>
+        <div class="positionIglesia1">
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia1.html'; ?>
+        </div>
 
-    <a href="song.php?value=rooneyFrame" class="rooneyColorPlace"></a>
+        <a href="song.php?value=rooneyFrame" class="rooneyColorPlace"></a>
 
 
-    <div class="positionIglesia2">
+        <div class="positionIglesia2">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <p style="
             background-color: #bdccd4;
@@ -170,9 +174,9 @@
             padding-left: 2%;
             margin-right: 65%;
             ">El druida</p>
-                <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia2.html'; ?>
-            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-            </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia2.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
         <div class="positionIglesia3">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
@@ -189,43 +193,43 @@
             padding-left: 2%;
             margin-left: 74%;
             ">Bodas clandestinas</p>
-                <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia3.html'; ?>
-            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-            </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/iglesia3.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-<!-- FACULTAD DE BELLAS ARTES -->
+        <!-- FACULTAD DE BELLAS ARTES -->
 
 
-    <?php
+        <?php
         }elseif ($_GET['value'] == "facultadartes"){
     ?>
-    
-    <div class="backgroundMap4">      
-    </div>
-    <a href="map.php" class="solMap"></a>
 
-    <div class="positionFacultad1">
-        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <div class="backgroundMap4">
+        </div>
+        <a href="map.php" class="solMap"></a>
+
+        <div class="positionFacultad1">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
 
             <?php include 'include/img/03_Assets/03_Mapa/Textos/facultad1.html'; ?>
-        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-    </div>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-            <a href="song.php?value=bellasFrame" class="bellasColorPlace"></a>
+        <a href="song.php?value=bellasFrame" class="bellasColorPlace"></a>
 
 
-<!-- CASA MIGUEL -->
+        <!-- CASA MIGUEL -->
 
-    <?php
+        <?php
         }elseif ($_GET['value'] == "casamiguel"){
     ?>
-          <div class="backgroundMap2">
-          </div>
-          <a href="map.php" class="solMap"></a>
-          
-          <div class="positionCasaMiguel1">
-              <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-              <p style="
+        <div class="backgroundMap2">
+        </div>
+        <a href="map.php" class="solMap"></a>
+
+        <div class="positionCasaMiguel1">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
               background-color: #bdccd4;
               color: #3D8AF4;
               float: right;
@@ -238,14 +242,14 @@
               padding-left: 2%;
               margin-left: 200%;
               ">Las conductoras siamesas</p>
-                  <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel1.html'; ?>
-              <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
-              </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel1.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
 
-          <div class="positionCasaMiguel2">
-              <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-              <p style="
+        <div class="positionCasaMiguel2">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
               background-color: #bdccd4;
               color: #3D8AF4;
               float: left;
@@ -258,33 +262,33 @@
               padding-left: 2%;
               margin-left: 5%;
               ">Ojitos tristes</p>
-                  <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel2.html'; ?>
-              <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
-              </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/casamiguel2.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-          <a href="song.php?value=ponteFrame" class="ponteColorPlace"></a>
+        <a href="song.php?value=ponteFrame" class="ponteColorPlace"></a>
 
 
-<!-- LA FUENTE -->
+        <!-- LA FUENTE -->
 
-    <?php
+        <?php
         }elseif ($_GET['value'] == "lafuente"){
     ?>
 
-          <div class="backgroundMap6">
-          </div>
-          <a href="map.php" class="solMap"></a>
+        <div class="backgroundMap6">
+        </div>
+        <a href="map.php" class="solMap"></a>
 
-          <div class="positionFuente1">
-              <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-                  <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente1.html'; ?>
-              <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
-              </div>
+        <div class="positionFuente1">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente1.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
 
-              <div class="positionFuente2">
-                  <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-                  <p style="
+        <div class="positionFuente2">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
                   
                   background-color: #bdccd4;
                   color: #83C55B;
@@ -299,13 +303,13 @@
                   margin-right: -3%;
                   
                   ">La leyenda de la princesa</p>
-                      <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente2.html'; ?>
-                  <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
-                  </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente2.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-              <div class="positionFuente3">
-                  <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
-                  <p style="
+        <div class="positionFuente3">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+            <p style="
                   background-color: #bdccd4;
                   color: #83C55B;
                   float: left;
@@ -318,23 +322,23 @@
                   padding-left: 2%;
                   margin-left: 13%;
                   ">Objetos mágicos</p>
-                      <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente3.html'; ?>
-                  <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
-                  </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/lafuente3.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
 
-              <a href="song.php?value=federicoFrame" class="federicoColorPlace"></a>
+        <a href="song.php?value=federicoFrame" class="federicoColorPlace"></a>
 
 
 
-<!-- CASA NICO -->
+        <!-- CASA NICO -->
 
-    <?php
+        <?php
         }elseif ($_GET['value'] == "casanico"){
     ?>
-    <div class="backgroundMap3">      
-    </div>
-    <a href="map.php" class="solMap"></a>
+        <div class="backgroundMap3">
+        </div>
+        <a href="map.php" class="solMap"></a>
 
         <div class="positionCasaNico1">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
@@ -353,12 +357,12 @@
             margin-left: 13%;
             
             ">El salón</p>
-                <?php include 'include/img/03_Assets/03_Mapa/Textos/casanico1.html'; ?>
-            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-            </div>
-            <a href="song.php?value=puebloFrame" class="puebloColorPlace"></a>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/casanico1.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
+        <a href="song.php?value=puebloFrame" class="puebloColorPlace"></a>
 
-            <div class="positionCasaNico2">
+        <div class="positionCasaNico2">
             <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <p style="
             background-color: #bdccd4;
@@ -373,36 +377,37 @@
             padding-left: 2%;
             margin-right: 55%;
             ">La habitación</p>
-                <?php include 'include/img/03_Assets/03_Mapa/Textos/casanico2.html'; ?>
-            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE --> 
-            </div>
+            <?php include 'include/img/03_Assets/03_Mapa/Textos/casanico2.html'; ?>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
 
-            <a href="song.php?value=paisajesFrame" class="paisajesColorPlace"></a>
+        <a href="song.php?value=paisajesFrame" class="paisajesColorPlace"></a>
 
 
 
-     <!-- CARRETERA OSCURA -->
-    <?php
+        <!-- CARRETERA OSCURA -->
+        <?php
         }elseif ($_GET['value'] == "carreteraoscura"){
     ?>
-    <div class="backgroundMap5">
-    </div>
-    <a href="map.php" class="solMap"></a>
+        <div class="backgroundMap5">
+        </div>
+        <a href="map.php" class="solMap"></a>
 
-    <div class="positionCarretera1">
-        <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
+        <div class="positionCarretera1">
+            <!-- SE VUELVE ABRIR PARA INCLUIR EL FICHERO DEL TEXTO Y EL FRAME DE LA CANCION EN CUESTION -->
             <?php include 'include/img/03_Assets/03_Mapa/Textos/carretera1.html'; ?>
-        <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
-    </div>
-                <a href="song.php?value=feriaFrame" class="feriaColorPlace"></a>
+            <!-- SE CIERRA LA SENTENCIA DEL INCLUDE -->
+        </div>
+        <a href="song.php?value=feriaFrame" class="feriaColorPlace"></a>
 
 
-    <?php
+        <?php
         }
     ?>
     </div>
 
 
-    
+
 </body>
+
 </html>

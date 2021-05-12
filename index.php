@@ -4,10 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="include/styles/styles.css" type="text/css">
     <link rel="stylesheet" href="include\styles\styles.css" type="text/css">
+    <link rel="shortcut icon" href="include/favicon.ico" type="image/x-icon">
     <title>Lo Más bien
     </title>
 </head>
+
 
 <body>
 
